@@ -1,0 +1,106 @@
+.logo{
+    width: 25px;
+}
+.titre{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-size: 75px;
+    color: rgb(26, 148, 26);
+    font-family: 'Source Sans Pro', serif;
+}
+.description{
+    position: relative;
+    left: 100px;
+    top: 64px;
+    color: rgb(44, 211, 66);
+    text-decoration: underline;
+}
+.description1{
+    position: relative;
+    text-align: left;
+    left: 100px;
+    top: 64px;
+    color: rgb(44, 211, 66);
+    text-decoration: underline;
+}
+
+.container{
+    position: relative;
+    top: 64px;
+}
+
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+/*Nourriture*/
+.food1{
+    width: 150px;
+}
+
+.food2{
+    width: 135px;
+}
+.food3{
+    width: 100px;
+}
+.food4{
+    width: 110px;
+}
+/*Nourriture*/
+
+.reduc{
+    color: rgb(230, 115, 22);
+}
+
+.general{
+    color: #428bca;
+    font-family: 'Kanit', sans-serif;
+}
+
+.button 
+{
+    color: rgb(44, 211, 66);
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*icons*/
+    .icon{
+        position: relative;
+        text-align: center;
+        top: 64px;
+    }
+
+    .iconbase{
+        position: relative;
+        text-align: center;
+        top: 120px;
+    }
+
+    .icon1{
+        width: 80px;
+    }
+
+    .icon2{
+        width: 70px;
+    }
+/*icons*/
+
+.infos{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(44, 211, 66);
+}
