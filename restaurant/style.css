@@ -104,3 +104,45 @@
     text-decoration: underline;
     color: rgb(44, 211, 66);
 }
+.pack{
+    position: relative;
+    top: 250px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(44, 211, 66);
+    font-family: 'Source Sans Pro', serif;
+    font-size: large;
+}
+.packaging{
+    position: relative;
+    top: 250px;
+    left: 300px;
+    width: 800px;
+    font-family: 'Source Sans Pro', serif;
+}
+.barre{
+    position: relative;
+    top: 650px;
+    text-align: center;
+    width: 500px;
+    left: -370px;
+}
+.barre1{
+    position: relative;
+    top: 180px;
+    text-align: center;
+    width: 500px;
+    left: 420px;
+}
+.fin{
+    position: relative;
+    top: 400px;
+    text-align: center;
+    color: rgb(114, 114, 114);
+}
+.signature{
+    position: relative;
+    top: 400px;
+    left: 1200px;
+    color: rgb(114, 114, 114);
+}
